@@ -1,0 +1,35 @@
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  button.big-button {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-color: black;
+    border-width: 1px;
+    background-color: transparent;
+    transition: color 0.5s, background-color 0.5s;
+  }
+  button.big-button:hover, button.big-button:active {
+    color: #FFFFFF;
+    background-color: #000000;
+  }
